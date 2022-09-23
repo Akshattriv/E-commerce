@@ -1,0 +1,168 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Product Page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+  
+    <!-- ------------------------------free delivery -------------------------------------- -->
+    <div class="discount">
+      <h4>FREE DELIVERY ON ORDERS ABOVE Rs. 2000/-</h4>
+    </div>
+
+    <!-- -------------------------------------navbar----------------------------------- -->
+    <div>
+      <nav>
+        <img src="images/icon-hamburger.svg" alt="" class="hamburger" height="23">       
+        <img class="logo" src="images/black_logo.png" alt="Wizaah Logo">
+        <div class="midnav">
+          <ul>
+            <li><a href="#"><span>Men</span></a></li>
+            <li><a href="#"><span>Women</span></a></li>
+            <li><a href="#"><span>Kids</span></a></li>
+            <li><a href="#"><span>Home & Living</span></a></li>
+          </ul>
+        </div>
+        <div class="settings">
+          <img src="images/icon-search.svg" id="img1" height="28">
+          <img src="images/icon-profile.svg" id="img2" height="25">
+          <img src="images/icon-cart.svg" id="img3" height="45">
+        </div>
+
+      </nav>
+
+      <div class="flexbox-container">
+        <!-- divide into three pieces like grid 12 cols / 3 each -->
+        <div class="flexbox-item flexbox-item-1">
+
+          <img src="images/product-image-1.png" alt="">
+          <img src="images/product-image-3.png" id="item" alt="">
+
+        </div>
+        <div class="flexbox-item flexbox-item-2">
+
+          <img src="images/product-image-2.png" alt="">
+          <img src="images/product-image-3.png" alt="">
+
+        </div>
+        <div class="flexbox-item flexbox-item-3">
+
+          <span style="opacity: 0.6; font-size:13px; ">CLOTHING COMPANY</span>
+          <br/>
+          <h1 style="margin-top:0;margin-bottom: 0;">Ruffled Sleeveless Top</h1>
+          <br/>
+          <span style="text-decoration: line-through">Rs. 1500 &nbsp;</span>
+          <span>&nbsp;&nbsp;Rs. 899.00</span> <button style="border-radius:100px; background-color:#002e35;text-decoration: none;color:white;">Sale</button>
+          <br>
+          <br>
+
+          <p style="opacity: 0.7; margin-bottom:10px;">Size</p>
+          <div class="top-size">
+            <button>S</button>
+            <button>M</button>
+            <button>L</button>
+            <button>XL</button>
+          </div>
+
+          <br>
+          <p style="opacity: 0.7;margin-bottom:10px;margin-top:0;">Quantity</p>
+          <div id="quantity-btn">
+            <button onclick="decrement()">-</button>
+              <input id=demoInput type=number min=1 max=10>
+            <button onclick="increment()">+</button>
+          </div>
+
+          <br>
+          <div class="flexbox2 finalAdd">
+            <div class="flexbox2-item">
+
+              <button id="addtocart" onclick="addtocart()">
+                Add to cart
+              </button>
+  
+              <button id="buy">
+                Buy it now
+              </button>
+
+            </div>
+          </div>
+          <br>
+
+          <p class="text">
+            A dreamy feminine piece, this top is made from a medium weight, extra soft 
+            cotton blend with a light airy feel and paper-like quality. 
+            <br> <br>
+            Designed with voluminous ruffled straps as well as ruffle details across the 
+            chest, it has a straight cut fit and a square neckline.
+          </p>
+
+                
+            
+<!-- ----------------dropdown------------------------- -->
+
+<br>
+<div class="accordion-body">
+  <div class="accordion">
+
+    <hr>
+
+    <div class="container">
+      <div class="label">
+        <img src="images/icon-materials.svg" style="height:28px;" id="drop1">
+        <p>Materials</p> 
+        <p class="dropdown1"><img src="images/down-arrow.png"></p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+      <div class="label">
+
+        <img src="images/icon-shipping.svg" style="height:32px;">
+        <p id="dropdown-text" >Shipping&nbsp;&&nbsp;Returns</p> 
+        <p class="dropdown2"><img src="images/down-arrow.png"></p>
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+      <div class="label">
+        <img src="images/icon-dimensions.svg" style="height:32px;">
+        <p>Dimensions</p>
+        <p class="dropdown3"><img src="images/down-arrow.png"></p> 
+      </div>
+    </div>
+    <hr>
+
+    <div class="container">
+      <div class="label">
+        <img src="images/icon-care.svg" style="height:32px;">
+        <p>Care&nbsp;Instructions</p>
+        <p class="dropdown4"><img src="images/down-arrow.png"></p>
+      </div>
+    </div>
+    <hr>    
+
+  </div>
+</div>
+
+
+        </div>
+      </div>
+
+
+
+    </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
