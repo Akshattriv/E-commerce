@@ -63,6 +63,18 @@ nav ul li a span{
   padding: 10px;
 }
 
+/* =============== Hamburger button ======================= */
+.checkbtn{
+  cursor:pointer;
+  display: none;
+}
+.check{
+  display: none;  
+}
+
+/* TODO: Add hamburger */
+
+/* ===============navbar customization==================== */
 @media screen and (min-width: 68px) and (max-width: 999px) {
   .discount h4{
     font-size: 18px;
@@ -150,7 +162,7 @@ nav ul li a span{
     margin-left: 1em;
   }
   .flexbox-item-3 .text{
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 @media screen and (min-width: 381px) and (max-width: 830px){
