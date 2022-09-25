@@ -1,7 +1,7 @@
 # E-commerce.github.io
 
 Website Live At:-
-https://akshattriv.github.io/E-commerce.github.io/
+https://akshattriv.github.io/E-commerce/
 
 Functionality Added:
 - Upon clicking Add to cart, the button with badge 1 is displayed indicating that the cart has some items in it.
