@@ -144,6 +144,9 @@ nav ul li a span{
     /* margin: auto; */
     margin-left: 1em;
   }
+  nav .logo{
+    height: 35px;
+  }
 }
 @media screen and (min-width: 381px) and (max-width: 830px){
   .flexbox-container{
